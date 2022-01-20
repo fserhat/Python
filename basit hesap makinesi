@@ -1,0 +1,19 @@
+print (""""*****************
+1.Toplama işlemi
+2.Çıkarma İşlemi
+3.Çarpma İşlemi
+4.Bölme İşlemi
+*************************** """)
+
+a = int(input("Birinci sayi: "))
+b = int(input("ikinci sayi: "))
+işlem = input("işlemi giriniz")
+if işlem == "1":
+    print("{} ile {} nin toplamı {} dir".format(a,b,a+b))
+elif işlem == "2":
+    print("{} ile {} nin çıkarılmasının sonucu {} dir".format(a, b, a - b))
+elif işlem == "3":
+    print("{} ile {} nin çarpımı {} dir".format(a, b, a * b))
+elif işlem == "4":
+    print("{} ile {} nin çarpımı {} dir".format(a, b, a / b))
+else: print("gecersiz işlem")

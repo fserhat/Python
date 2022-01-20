@@ -1,0 +1,20 @@
+print("""****************
+Faktoriyel Bulma Programı
+
+Çıkmak için 'q'ya basınız. 
+
+*******************""")
+
+while True:
+    sayi =  input("sayi: ")
+    if (sayi == "q"):
+        print ("Program Sonlandırılıyor...")
+        break
+    else:
+        sayi = int(sayi)
+
+        faktöriyel = 1
+
+        for i in range(2,sayi + 1):
+            faktöriyel *= i
+        print(faktöriyel)

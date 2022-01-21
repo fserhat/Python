@@ -1,0 +1,7 @@
+#Beden Kitle İndeksi
+print("Beden Kitle İndeksi")
+
+Kilo = float(input("kilonuzu giriniz: "))
+Boy = float(input("Boyunuzu giriniz: "))
+indeks = (Kilo / Boy**2)
+print("Beden Kitle İndeksi: {}".format(indeks))
